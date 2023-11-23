@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T11:37:14.388Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="D2Sw42BkvwOenc-y3aYn" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T12:00:25.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="To8x7Wlu4CY8j_UBiZM0" version="22.1.3" type="github">
   <diagram name="Page-1" id="-zQvX4ZLQw2j2gYhCtF6">
-    <mxGraphModel dx="5926" dy="3160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="528" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
         <mxCell id="OrUPgH0xgMl1emSy32sQ-57" value="ScreenManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="980" y="458" width="430" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="OrUPgH0xgMl1emSy32sQ-58" value="- device: GraphicDevice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OrUPgH0xgMl1emSy32sQ-57" vertex="1">
+        <mxCell id="OrUPgH0xgMl1emSy32sQ-58" value="- device: GraphicDevice" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OrUPgH0xgMl1emSy32sQ-57" vertex="1">
           <mxGeometry y="26" width="430" height="34" as="geometry" />
         </mxCell>
         <mxCell id="OrUPgH0xgMl1emSy32sQ-60" value="&lt;div&gt;+ ScreenManager(): &lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getCompatibleDisplayModes(): DisplayMode[]&lt;/div&gt;&lt;div&gt;+ findFirstCompatibleMode(modes[] : DisplayMode&lt;/div&gt;&lt;div&gt;+ getCurrentDisplayMode(mode1: DisplayMode, mode2: DisplayMode): DisplayMode&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ displayModesMatch(mode1: DisplayMode, mode2: DisplayMode): boolean&lt;br&gt;&lt;/div&gt;&lt;div&gt;+setFullScreen(displayMode: DisplayMode): void&lt;/div&gt;&lt;div&gt;+ getGraphics() : Graphics2D&lt;/div&gt;&lt;div&gt;+ update() : void&lt;/div&gt;&lt;div&gt;+&amp;nbsp; getFullScreenWindow(): JFrame&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getWidth(): int&lt;/div&gt;&lt;div&gt;+ getHeaight(): int&lt;/div&gt;&lt;div&gt;+ restoreScreen(): void&lt;/div&gt;&lt;div&gt;+createCompatibleImage(w: int, h: int, transparancy: int)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OrUPgH0xgMl1emSy32sQ-57" vertex="1">
