@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T11:29:44.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="E7f2iu3I5aZdfXqJZVxM" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T11:37:17.541Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2XOtn779qo0OryxOACzB" version="22.1.7" type="github">
   <diagram name="Page-1" id="-zQvX4ZLQw2j2gYhCtF6">
-    <mxGraphModel dx="911" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1088" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,16 +25,16 @@
           <mxGeometry y="98" width="290" height="272" as="geometry" />
         </mxCell>
         <mxCell id="OrUPgH0xgMl1emSy32sQ-34" value="&lt;div&gt;GameCore&lt;/div&gt;&lt;div&gt;{abstract}&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1825" y="180" width="160" height="100" as="geometry" />
+          <mxGeometry x="1830" width="220" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="OrUPgH0xgMl1emSy32sQ-35" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OrUPgH0xgMl1emSy32sQ-34" vertex="1">
-          <mxGeometry y="40" width="160" height="26" as="geometry" />
+        <mxCell id="OrUPgH0xgMl1emSy32sQ-35" value="# FONT_SIZE : int&lt;br&gt;- POSSIBLE_MODES : DisbplayMode&lt;br&gt;- isRunning : boolean&lt;br&gt;# screen : ScreenManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OrUPgH0xgMl1emSy32sQ-34" vertex="1">
+          <mxGeometry y="40" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OrUPgH0xgMl1emSy32sQ-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="OrUPgH0xgMl1emSy32sQ-34" vertex="1">
-          <mxGeometry y="66" width="160" height="8" as="geometry" />
+          <mxGeometry y="110" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="OrUPgH0xgMl1emSy32sQ-37" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OrUPgH0xgMl1emSy32sQ-34" vertex="1">
-          <mxGeometry y="74" width="160" height="26" as="geometry" />
+        <mxCell id="OrUPgH0xgMl1emSy32sQ-37" value="+ stop() : void&lt;br&gt;+ run() : void&lt;br&gt;+ lazilyExit() : void&lt;br&gt;+ init() : void&lt;br&gt;+ loadImage(fileName:String) : Image&lt;br&gt;+ gameLoop() : void&lt;br&gt;+ update(elapsedTime:long) : void&lt;br&gt;+ draw(g:Graphics2D) : void&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OrUPgH0xgMl1emSy32sQ-34" vertex="1">
+          <mxGeometry y="118" width="220" height="132" as="geometry" />
         </mxCell>
         <mxCell id="OrUPgH0xgMl1emSy32sQ-48" value="Animation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="560" y="458" width="300" height="260" as="geometry" />
