@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T11:37:17.541Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2XOtn779qo0OryxOACzB" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T12:24:53.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="OETnpu0JKYW3pp-5euYY" version="22.1.7" type="github">
   <diagram name="Page-1" id="-zQvX4ZLQw2j2gYhCtF6">
-    <mxGraphModel dx="1088" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2373" dy="2968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -191,40 +191,40 @@
           <mxGeometry y="48" width="220" height="52" as="geometry" />
         </mxCell>
         <mxCell id="I2AfTMVoy-GJ9hnt4J7G-50" value="&lt;div&gt;InputManager&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="230" width="160" height="100" as="geometry" />
+          <mxGeometry x="1110" y="-400" width="300" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="I2AfTMVoy-GJ9hnt4J7G-51" value="attribut" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="I2AfTMVoy-GJ9hnt4J7G-50" vertex="1">
-          <mxGeometry y="40" width="160" height="26" as="geometry" />
+        <mxCell id="I2AfTMVoy-GJ9hnt4J7G-51" value="&lt;div&gt;+ INVISBLE_CURSOR: Cursor&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ MOUSE_MOVE_LEFT: int&lt;/div&gt;&lt;div&gt;+ MOUSE_MOVE_RIGHT: int&lt;/div&gt;&lt;div&gt;+ MOUSE_MOVE_UP: int&lt;/div&gt;&lt;div&gt;+ MOUSE_MOVE_DOWN: int&lt;/div&gt;&lt;div&gt;+ MOUSE_WHEEL_UP: int&lt;/div&gt;&lt;div&gt;+ MOUSE_WHEEL_DOWN: int&lt;/div&gt;&lt;div&gt;+ MOUSE_BUTTON_1: int&lt;/div&gt;&lt;div&gt;+ MOUSE_BUTTON_2: int&lt;/div&gt;&lt;div&gt;+ MOUSE_BUTTON_3: int&lt;/div&gt;&lt;div&gt;+ NUM_MOUSE_CODES: int&lt;/div&gt;&lt;div&gt;+ NUM_KEY_CODES: int&lt;/div&gt;&lt;div&gt;- keyActions: GameAction[]&lt;/div&gt;&lt;div&gt;- mouseActions: GameAction[]&lt;/div&gt;&lt;div&gt;- mouseLocation: Point&lt;/div&gt;&lt;div&gt;- centerLoaction: Point&lt;/div&gt;&lt;div&gt;- comp: Component&lt;/div&gt;&lt;div&gt;- robot: Robot&lt;/div&gt;&lt;div&gt;- isRecentering: boolean&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="I2AfTMVoy-GJ9hnt4J7G-50" vertex="1">
+          <mxGeometry y="40" width="300" height="290" as="geometry" />
         </mxCell>
         <mxCell id="I2AfTMVoy-GJ9hnt4J7G-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="I2AfTMVoy-GJ9hnt4J7G-50" vertex="1">
-          <mxGeometry y="66" width="160" height="8" as="geometry" />
+          <mxGeometry y="330" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="I2AfTMVoy-GJ9hnt4J7G-53" value="metoder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="I2AfTMVoy-GJ9hnt4J7G-50" vertex="1">
-          <mxGeometry y="74" width="160" height="26" as="geometry" />
+        <mxCell id="I2AfTMVoy-GJ9hnt4J7G-53" value="&lt;div&gt;+ InputManager(comp: Component)&lt;/div&gt;&lt;div&gt;+ setCurson(cursor: Cursor): void&lt;/div&gt;&lt;div&gt;+ setRelativeMouseMode(mode: bolean): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ isRelativeMouseMode(): bolean&lt;/div&gt;&lt;div&gt;+ mapToKey: void&lt;/div&gt;&lt;div&gt;+ mapToMouse(gameAction: GameAction): void&lt;/div&gt;&lt;div&gt;+ clearMap(gameAction: GameAction): void&lt;/div&gt;&lt;div&gt;+ getMaps(gameCode: GameAction): List&lt;/div&gt;&lt;div&gt;+ resetAllGameAction(): void&lt;/div&gt;&lt;div&gt;+ getKeyName(mouseCode: int): String&lt;/div&gt;&lt;div&gt;+ getMouseName(mouseCode: int): String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getMouseX(): int&lt;/div&gt;&lt;div&gt;+ getMouseY(): int&lt;/div&gt;&lt;div&gt;+ recenterMouse(): void&lt;/div&gt;&lt;div&gt;+ getKeyAction(e: KeyEvent): GameAction&lt;/div&gt;&lt;div&gt;+ getMouseButtonCode(e: MouseEvent): GameAction&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ keyPressed(e: keyPressed): void&lt;/div&gt;&lt;div&gt;+ keyReleased(e: KeyEvent): void&lt;/div&gt;&lt;div&gt;+ keyTyped(e: KeyEvent): void&lt;/div&gt;&lt;div&gt;+ mousePressed(e: MouseEvent): void&lt;/div&gt;&lt;div&gt;+ mouseReleased(e: MouseEvent): void&lt;/div&gt;&lt;div&gt;+ mouseClicked(e: MouseEvent): void&lt;/div&gt;&lt;div&gt;+ mouseEntered(e: MouseEvent): void&lt;/div&gt;&lt;div&gt;+ mouseExited(e: MouseEvent): void&lt;/div&gt;&lt;div&gt;+ mouseDragged(e: MouseEvent): void&lt;/div&gt;&lt;div&gt;+ mouseMoved(e: MouseEvent): void&lt;/div&gt;&lt;div&gt;+ mouseWheelMoved(e: MouseWheelEvent): void&lt;/div&gt;&lt;div&gt;+ mouseHelper(codeNeg: int, codePos: int, amount:int)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="I2AfTMVoy-GJ9hnt4J7G-50" vertex="1">
+          <mxGeometry y="338" width="300" height="432" as="geometry" />
         </mxCell>
         <mxCell id="I2AfTMVoy-GJ9hnt4J7G-54" value="&lt;div&gt;GameAction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1480" y="50" width="250" height="194" as="geometry" />
+          <mxGeometry x="1510" y="-300" width="250" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="I2AfTMVoy-GJ9hnt4J7G-55" value="&lt;div&gt;- NORMAL: int&lt;/div&gt;&lt;div&gt;- DETECT_INITIAL_PRESS_ONLY: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;- STATE_RELEASED: int&lt;/div&gt;&lt;div&gt;- STATE_PRESSED: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;- STATE_WAITING_FOR_RELEASE: int&lt;/div&gt;&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- behavior: int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="I2AfTMVoy-GJ9hnt4J7G-54" vertex="1">
-          <mxGeometry y="40" width="250" height="120" as="geometry" />
+        <mxCell id="I2AfTMVoy-GJ9hnt4J7G-55" value="&lt;div&gt;- NORMAL: int&lt;/div&gt;&lt;div&gt;- DETECT_INITIAL_PRESS_ONLY: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;- STATE_RELEASED: int&lt;/div&gt;&lt;div&gt;- STATE_PRESSED: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;- STATE_WAITING_FOR_RELEASE: int&lt;/div&gt;&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- behavior: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;- amount: int&lt;/div&gt;- state: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="I2AfTMVoy-GJ9hnt4J7G-54" vertex="1">
+          <mxGeometry y="40" width="250" height="140" as="geometry" />
         </mxCell>
         <mxCell id="I2AfTMVoy-GJ9hnt4J7G-56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="I2AfTMVoy-GJ9hnt4J7G-54" vertex="1">
-          <mxGeometry y="160" width="250" height="8" as="geometry" />
+          <mxGeometry y="180" width="250" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="I2AfTMVoy-GJ9hnt4J7G-57" value="metoder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="I2AfTMVoy-GJ9hnt4J7G-54" vertex="1">
-          <mxGeometry y="168" width="250" height="26" as="geometry" />
+        <mxCell id="I2AfTMVoy-GJ9hnt4J7G-57" value="&lt;div&gt;+ GameAction(name: String, behavior)&lt;/div&gt;&lt;div&gt;+ getName: String&lt;/div&gt;&lt;div&gt;+ reset(): void&lt;/div&gt;&lt;div&gt;+ tap(): void&lt;/div&gt;&lt;div&gt;+ press(): void&lt;/div&gt;&lt;div&gt;+ press(amount: int): void&lt;/div&gt;&lt;div&gt;+ release(): void&lt;/div&gt;&lt;div&gt;+ isPressed(): boolean&lt;/div&gt;&lt;div&gt;+ getAmount(): int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="I2AfTMVoy-GJ9hnt4J7G-54" vertex="1">
+          <mxGeometry y="188" width="250" height="152" as="geometry" />
         </mxCell>
         <mxCell id="I2AfTMVoy-GJ9hnt4J7G-60" value="input" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="740" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I2AfTMVoy-GJ9hnt4J7G-61" value="tilegame" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="890" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I2AfTMVoy-GJ9hnt4J7G-62" value="graphics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="850" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I2AfTMVoy-GJ9hnt4J7G-63" value="&lt;div&gt;test&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="590" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wSfA8a-js924o97HnVyh-1" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1020" y="809" width="160" height="86" as="geometry" />
